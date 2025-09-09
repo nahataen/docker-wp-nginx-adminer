@@ -14,10 +14,10 @@ Este proyecto levanta un entorno completo de **WordPress** utilizando **Docker C
 - **MariaDB (10.6)**  
   Base de datos para WordPress. Los datos se guardan en un volumen persistente `db_data`.  
 
-  - Usuario: `wpuser`  
-  - Contraseña: `wppass`  
-  - Base de datos: `wpdb`  
-  - Root: `rootpass`  
+  - Usuario: ``  
+  - Contraseña: ``  
+  - Base de datos: ``  
+  - Root: ``  
 
 - **Adminer**  
   Herramienta ligera para administrar la base de datos vía web, accesible en [http://localhost:8081](http://localhost:8081).  
