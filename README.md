@@ -14,10 +14,14 @@ Este proyecto levanta un entorno completo de **WordPress** utilizando **Docker C
 
 - **MariaDB (10.6)**  
   Base de datos para WordPress, con datos persistentes en el volumen `db_data`.  
+
+  ⚠️ **Importante**: debes configurar tus propios valores de conexión en el archivo `docker-compose.yml`.  
+  Los que vienen son solo de ejemplo:  
   - Usuario: `wpuser`  
   - Contraseña: `wppass`  
   - Base de datos: `wpdb`  
-  - Root: `rootpass`
+  - Root: `rootpass`  
+
 
 - **Adminer**  
   Interfaz web para gestionar la base de datos en **[http://localhost:8081](http://localhost:8081)**. Usa tema CSS personalizado (`./adminer-theme/adminer.css`).
