@@ -1,6 +1,6 @@
 # 🚀 Docker WordPress + Nginx + MariaDB + Adminer
 
-![Docker Logo](./docker-logo.png)
+![Docker Logo](https://www.docker.com/app/uploads/2023/08/logo-guide-logos-1.svg)
 
 Este proyecto levanta un entorno completo de **WordPress** utilizando **Docker Compose**, ideal para desarrollo local o pruebas rápidas.
 
